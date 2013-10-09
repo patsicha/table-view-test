@@ -230,6 +230,9 @@
 		1C257C15180568E600FFB951 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C257B4C180568E600FFB951 /* 98-palette.png */; };
 		1C257C16180568E600FFB951 /* 99-umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C257B4D180568E600FFB951 /* 99-umbrella.png */; };
 		1C257C1918056E2500FFB951 /* FlagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257C1818056E2500FFB951 /* FlagsViewController.m */; };
+		1C257C1B18057C9300FFB951 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C257C1A18057C9300FFB951 /* Social.framework */; };
+		1C257C201805903A00FFB951 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C257C1F1805903A00FFB951 /* SimpleTableCell.xib */; };
+		1C257C231805904600FFB951 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C257C221805904600FFB951 /* SimpleTableCell.m */; };
 		1CDDDF861804EA6200828FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDDDF851804EA6200828FF7 /* Foundation.framework */; };
 		1CDDDF881804EA6200828FF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDDDF871804EA6200828FF7 /* CoreGraphics.framework */; };
 		1CDDDF8A1804EA6200828FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDDDF891804EA6200828FF7 /* UIKit.framework */; };
@@ -244,8 +247,6 @@
 		1CDDDFA71804EA6200828FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDDDF891804EA6200828FF7 /* UIKit.framework */; };
 		1CDDDFAF1804EA6200828FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CDDDFAD1804EA6200828FF7 /* InfoPlist.strings */; };
 		1CDDDFB11804EA6200828FF7 /* table_viewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDDFB01804EA6200828FF7 /* table_viewTests.m */; };
-		1CDDE19C1804FA5900828FF7 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDDE19B1804FA5900828FF7 /* SimpleTableCell.xib */; };
-		1CDDE19F1804FB6700828FF7 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDE19E1804FB6700828FF7 /* SimpleTableCell.m */; };
 		1CDDE2801804FF6600828FF7 /* Afghanistan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDDE1A11804FF6600828FF7 /* Afghanistan.png */; };
 		1CDDE2811804FF6600828FF7 /* Albania.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDDE1A21804FF6600828FF7 /* Albania.png */; };
 		1CDDE2821804FF6600828FF7 /* Algeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDDE1A31804FF6600828FF7 /* Algeria.png */; };
@@ -712,6 +713,10 @@
 		1C257B4D180568E600FFB951 /* 99-umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "99-umbrella.png"; sourceTree = "<group>"; };
 		1C257C1718056E2500FFB951 /* FlagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagsViewController.h; sourceTree = "<group>"; };
 		1C257C1818056E2500FFB951 /* FlagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagsViewController.m; sourceTree = "<group>"; };
+		1C257C1A18057C9300FFB951 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1C257C1F1805903A00FFB951 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = SOURCE_ROOT; };
+		1C257C211805904600FFB951 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		1C257C221805904600FFB951 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
 		1CDDDF821804EA6200828FF7 /* table-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "table-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDDDF851804EA6200828FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CDDDF871804EA6200828FF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -731,9 +736,6 @@
 		1CDDDFAC1804EA6200828FF7 /* table-viewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "table-viewTests-Info.plist"; sourceTree = "<group>"; };
 		1CDDDFAE1804EA6200828FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CDDDFB01804EA6200828FF7 /* table_viewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = table_viewTests.m; sourceTree = "<group>"; };
-		1CDDE19B1804FA5900828FF7 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleTableCell.xib; path = ../SimpleTableCell.xib; sourceTree = "<group>"; };
-		1CDDE19D1804FB6700828FF7 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
-		1CDDE19E1804FB6700828FF7 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
 		1CDDE1A11804FF6600828FF7 /* Afghanistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Afghanistan.png; sourceTree = "<group>"; };
 		1CDDE1A21804FF6600828FF7 /* Albania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Albania.png; sourceTree = "<group>"; };
 		1CDDE1A31804FF6600828FF7 /* Algeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Algeria.png; sourceTree = "<group>"; };
@@ -970,6 +972,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C257C1B18057C9300FFB951 /* Social.framework in Frameworks */,
 				1CDDDF881804EA6200828FF7 /* CoreGraphics.framework in Frameworks */,
 				1CDDDF8A1804EA6200828FF7 /* UIKit.framework in Frameworks */,
 				1CDDDF861804EA6200828FF7 /* Foundation.framework in Frameworks */,
@@ -1246,6 +1249,7 @@
 		1CDDDF841804EA6200828FF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C257C1A18057C9300FFB951 /* Social.framework */,
 				1CDDDF851804EA6200828FF7 /* Foundation.framework */,
 				1CDDDF871804EA6200828FF7 /* CoreGraphics.framework */,
 				1CDDDF891804EA6200828FF7 /* UIKit.framework */,
@@ -1263,13 +1267,13 @@
 				1CDDDF971804EA6200828FF7 /* Main.storyboard */,
 				1CDDDF9A1804EA6200828FF7 /* ViewController.h */,
 				1CDDDF9B1804EA6200828FF7 /* ViewController.m */,
-				1CDDE19B1804FA5900828FF7 /* SimpleTableCell.xib */,
-				1CDDE19D1804FB6700828FF7 /* SimpleTableCell.h */,
-				1CDDE19E1804FB6700828FF7 /* SimpleTableCell.m */,
 				1CDDE369180516E900828FF7 /* AboutViewController.h */,
 				1CDDE36A180516E900828FF7 /* AboutViewController.m */,
 				1CDDE35F1805084D00828FF7 /* testList.plist */,
 				1CDDDF9D1804EA6200828FF7 /* Images.xcassets */,
+				1C257C211805904600FFB951 /* SimpleTableCell.h */,
+				1C257C221805904600FFB951 /* SimpleTableCell.m */,
+				1C257C1F1805903A00FFB951 /* SimpleTableCell.xib */,
 				1CDDDF8C1804EA6200828FF7 /* Supporting Files */,
 				1C257A811805677500FFB951 /* FlagsCollectionViewController.h */,
 				1C257A821805677500FFB951 /* FlagsCollectionViewController.m */,
@@ -1745,6 +1749,7 @@
 				1C257BE6180568E600FFB951 /* 52-pine-tree.png in Resources */,
 				1C257B7A180568E600FFB951 /* 131-tower.png in Resources */,
 				1C257B98180568E600FFB951 /* 159-voicemail.png in Resources */,
+				1C257C201805903A00FFB951 /* SimpleTableCell.xib in Resources */,
 				1C257B70180568E600FFB951 /* 122-stats.png in Resources */,
 				1CDDE3191804FF6600828FF7 /* Peru.png in Resources */,
 				1CDDE3471804FF6600828FF7 /* Togo.png in Resources */,
@@ -2035,7 +2040,6 @@
 				1C257B84180568E600FFB951 /* 140-gradhat.png in Resources */,
 				1CDDE2DC1804FF6600828FF7 /* Iraq.png in Resources */,
 				1CDDE30E1804FF6600828FF7 /* Nigeria.png in Resources */,
-				1CDDE19C1804FA5900828FF7 /* SimpleTableCell.xib in Resources */,
 				1CDDE3651805113D00828FF7 /* logo2.png in Resources */,
 				1CDDE3081804FF6600828FF7 /* Nepal.png in Resources */,
 				1CDDE2A31804FF6600828FF7 /* Canada.png in Resources */,
@@ -2097,12 +2101,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C257C231805904600FFB951 /* SimpleTableCell.m in Sources */,
 				1C257A831805677500FFB951 /* FlagsCollectionViewController.m in Sources */,
 				1CDDDF9C1804EA6200828FF7 /* ViewController.m in Sources */,
 				1CDDE36B180516E900828FF7 /* AboutViewController.m in Sources */,
 				1C257C1918056E2500FFB951 /* FlagsViewController.m in Sources */,
 				1CDDDF961804EA6200828FF7 /* AppDelegate.m in Sources */,
-				1CDDE19F1804FB6700828FF7 /* SimpleTableCell.m in Sources */,
 				1CDDDF921804EA6200828FF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
+
 
 @interface FlagsCollectionViewController : UICollectionViewController {
     NSArray *flagsPhotos;
     NSArray *tableData;
+    BOOL shareEnabled;
+    NSMutableArray *selectedFlagsArray;
 }
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *shareButton;
+- (IBAction)shareButtonTouched:(id)sender;
 
 @end
