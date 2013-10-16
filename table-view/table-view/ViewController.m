@@ -17,7 +17,9 @@
 {
     NSMutableArray *tableData;
     NSMutableArray *thumbnails;
+    
 }
+
 
 - (void)viewDidLoad
 {
@@ -37,6 +39,7 @@
 
     
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -62,6 +65,10 @@
     
     //cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
     //cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    
+  //  NSManagedObject *device = [self.devices objectAtIndex:indexPath.row];
+    //NSLog(@"%@",[device valueForKey:@"name"]);
+    ///NSLog(@"%@",[device valueForKey:@"imageURL"]);
     
     cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
@@ -92,12 +99,6 @@
      */
     
 }
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Remove the row from data model
-    [tableData removeObjectAtIndex:indexPath.row];
-        // Request table view to reload
-    [tableView reloadData];
-}
+
 
 @end
